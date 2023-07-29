@@ -9,7 +9,7 @@ export const CONTACTS = {
     icon: require('@site/static/img/logo/facebook.svg').default,
   } as Contact,
   Github: {
-    link: 'https://github.com/YourName',
+    link: 'https://github.com/itute',
     icon: require('@site/static/img/logo/github.svg').default,
   } as Contact,
   Linkedin: {

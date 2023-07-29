@@ -1,7 +1,7 @@
 ---
 slug: best-websites-to-learn-javascript
 title: Best websites to learn JavaScript
-authors: [YourName]
+authors: [itute]
 tags: [javascript, resources, learning]
 enableComments: true # for Gisqus comments, set to true
 draft: false # set to true to hide this post from the site
@@ -9,7 +9,7 @@ image: https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.
 ---
 
 <p align="right">
-    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2FYourName.github.io%2Fblog%2Fbest-websites-to-learn-javascript&label=⚪Views&labelColor=%2337d67a&countColor=%23555555&style=flat&labelStyle=upper" loading='lazy' decoding='async'/>
+    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fitute.github.io%2Fblog%2Fbest-websites-to-learn-javascript&label=⚪Views&labelColor=%2337d67a&countColor=%23555555&style=flat&labelStyle=upper" loading='lazy' decoding='async'/>
 </p>
 
 Javascript is an object-oriented, scripting, cross-platform web programming language. Javascript is embedded in HTML to create dynamic and interactive web pages. It can be used for a variety of purposes, from frontend to backend, from games to complex web applications.

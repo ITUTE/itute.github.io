@@ -8,12 +8,12 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const logo = '/img/avatar.webp';
-const organizationName = "YourName"; // Your github username or your organization name
-const projectName = "YourName.github.io"; // your repo name, ex: docusaurus-2, this is used to generate edit project link
+const organizationName = "itute"; // Your github username or your organization name
+const projectName = "itute.github.io"; // your repo name, ex: docusaurus-2, this is used to generate edit project link
 const baseUrl = projectName.includes(".github.io") ? '/' : `/${projectName}`;
 const footerLinks = [
     {
-        title: 'YourName',
+        title: 'itute',
         items: [
             {
                 label: 'Home',
@@ -47,15 +47,15 @@ const footerLinks = [
             },
             {
                 label: 'GitHub',
-                href: 'https://github.com/YourName',
+                href: 'https://github.com/itute',
             },
             {
                 label: 'Google for Developers',
-                href: 'https://g.dev/YourName',
+                href: 'https://g.dev/itute',
             },
             {
                 label: 'Email',
-                href: 'mailto:YourName.it@gmail.com',
+                href: 'mailto:itute.it@gmail.com',
             },
         ],
     },
@@ -63,8 +63,8 @@ const footerLinks = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'YourName',
-    tagline: 'Tag line of YourName',
+    title: 'itute',
+    tagline: 'Tag line of itute',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
@@ -171,9 +171,9 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'YourName',
+                title: 'itute',
                 logo: {
-                    alt: 'YourName',
+                    alt: 'itute',
                     src: 'img/avatar.webp',
                     height: 40,
                     style: {
@@ -193,7 +193,7 @@ const config = {
                     { to: '/community', label: 'Community', position: 'left' },
                     { to: '/contact', label: 'Contact', position: 'left' },
                     {
-                        href: 'https://github.com/YourName',
+                        href: 'https://github.com/itute',
                         // label: 'GitHub',
                         position: 'right',
                         className: "header-github-link",
@@ -207,26 +207,26 @@ const config = {
             footer: {
                 style: 'light',
                 links: footerLinks,
-                copyright: `Copyright © ${new Date().getFullYear()} YourName.`,
+                copyright: `Copyright © ${new Date().getFullYear()} itute.`,
             },
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
             metadata: [
-                { name: 'keywords', content: 'YourName, blog, coding, tools, others keywords...' },
-                { name: 'description', content: 'YourName description...' },
-                { name: 'author', content: 'YourName' },
-                { name: 'title', content: 'YourName - Blog' },
-                { property: 'og:title', content: 'YourName - Blog' },
-                { property: 'og:description', content: 'YourName description...' },
+                { name: 'keywords', content: 'itute, blog, coding, tools, others keywords...' },
+                { name: 'description', content: 'itute description...' },
+                { name: 'author', content: 'itute' },
+                { name: 'title', content: 'itute - Blog' },
+                { property: 'og:title', content: 'itute - Blog' },
+                { property: 'og:description', content: 'itute description...' },
                 { property: 'og:type', content: 'website' },
                 { property: 'og:image', content: logo },
-                { property: 'og:url', content: 'https://yourname.com' },
+                { property: 'og:url', content: 'https://itute.com' },
                 { name: 'twitter:card', content: 'summary_large_image' },
                 { name: 'twitter:image', content: logo },
-                { name: 'twitter:title', content: 'YourName - Blog' },
-                { name: 'twitter:description', content: 'YourName description...' },
+                { name: 'twitter:title', content: 'itute - Blog' },
+                { name: 'twitter:description', content: 'itute description...' },
             ],
             algolia: {
                 // The application ID provided by Algolia

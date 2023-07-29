@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: [endi, YourName]
+authors: [endi, itute]
 tags: [hello, docusaurus]
 enableComments: true # for Gisqus comments, set to true
 draft: false # set to false to publish this post

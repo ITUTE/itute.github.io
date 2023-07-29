@@ -33,18 +33,18 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/YourName"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/itute"
   },
   "link.item.label.Google for Developers": {
     "message": "Google for Developers",
-    "description": "The label of footer link with label=Google for Developers linking to https://g.dev/YourName"
+    "description": "The label of footer link with label=Google for Developers linking to https://g.dev/itute"
   },
   "link.item.label.Email": {
     "message": "Email",
-    "description": "The label of footer link with label=Email linking to mailto:YourName.it@gmail.com"
+    "description": "The label of footer link with label=Email linking to mailto:itute.it@gmail.com"
   },
   "copyright": {
-    "message": "Copyright © 2023 YourName.",
+    "message": "Copyright © 2023 itute.",
     "description": "The footer copyright"
   }
 }

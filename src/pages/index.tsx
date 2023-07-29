@@ -31,7 +31,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner, styles.backgroundImage)}>
       <div className={clsx('container', styles.cardContainer)}>
         <div className={clsx(styles.cardInfo)}>
-          <Image img={avatar} alt='YourName' about='YourName' className={clsx(styles.cardInfoImage)}
+          <Image img={avatar} alt='itute' about='itute' className={clsx(styles.cardInfoImage)}
             width={150} height={150} loading='lazy' decoding='async'/>
 
           <h1 className="hero__title">{siteConfig.title}</h1>

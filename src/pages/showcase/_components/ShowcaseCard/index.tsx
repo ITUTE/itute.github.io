@@ -12,7 +12,7 @@ import styles from './styles.module.css';
 import { ProjectTagList, ProjectTagType, ProjectTags } from '@site/src/shared/constants/ProjectConsts';
 import { Tag } from '@site/src/shared/dto/Tag';
 import { GetWebsiteScreenshot } from '@site/src/utils/common';
-import YourName from '@site/static/img/avatar.webp';
+import itute from '@site/static/img/avatar.webp';
 
 const TagComp = React.forwardRef<HTMLLIElement, Tag>(
   ({ label, color, description }, ref) => (
@@ -56,10 +56,10 @@ function getCardImage(user: Project): string {
     return user.preview;
   }
   if (user.website) {
-    var img = user.website ?? 'https://github.com/YourName'
+    var img = user.website ?? 'https://github.com/itute'
     return user.preview ?? GetWebsiteScreenshot(img)
   }
-  return YourName;
+  return itute;
 }
 
 function ShowcaseCard({ user }: { user: Project }) {
